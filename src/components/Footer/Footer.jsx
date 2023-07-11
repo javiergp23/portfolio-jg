@@ -19,18 +19,18 @@ const Footer = () => {
           </div>
           <div className='w-full sm:w-1/2'>
             <p className='text-gray-300 leading-7 mt-4 sm:mt-0'>Transformando conceptos en experiencias interactivas: diseño web innovador y desarrollo frontend para una presencia en línea impactante.</p>
-            <div className='flex items-center gap-4 flex-wrap md:gap-8 mt-10 '>
+            <div className='flex items-center justify-center gap-4 flex-wrap md:gap-8 mt-10 '>
               <span className='text-gray-300 font-[600] text-[15px]'>
-                Follow Me:
+                Sigueme:
               </span>
               <span className='w-[35px] h-[35px] bg-primaryColor p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href="https://github.com/javiergp23/javiergp23" className='text-[#12141e] font-[800] tex-[18px]'><i class="ri-github-line"></i></a>
+                <a href="https://github.com/javiergp23/javiergp23" className='text-[#12141e]  hover:text-headingColor font-[800] tex-[18px]'><i class="ri-github-line"></i></a>
               </span>
               <span className='w-[35px] h-[35px] bg-primaryColor  p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href="https://www.linkedin.com/in/javiergonzalez23" className='text-[#12141e] font-[800] tex-[18px]'><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://www.linkedin.com/in/javiergonzalez23" className='text-[#12141e] hover:text-headingColor font-[800] tex-[18px]'><i class="ri-linkedin-box-fill"></i></a>
               </span>
               <span className='w-[35px] h-[35px] bg-primaryColor  p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href="https://www.instagram.com/javiergp23/" className='text-[#12141e] font-[800] tex-[18px]'><i class="ri-instagram-line"></i></a>
+                <a href="https://www.instagram.com/javiergp23/" className='text-[#12141e] hover:text-headingColor font-[800] tex-[18px]'><i class="ri-instagram-line"></i></a>
               </span>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
       {/*========= footer end ========*/}
       {/*========= footer buttom ========*/}
-      <div className='bg-[#1b1e29] py-10 mt-14px'>
+      <div className='bg-[#1b1e29] py-4 mt-14px'>
         <div className="container">
           <div className="flex items-center justify-center sm:justify-between">
             

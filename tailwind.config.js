@@ -7,7 +7,7 @@ module.exports = {
         primaryColor : "#65a675",
         headingColor: "#FFFFFF",
         smallTextColor: "#67b588",
-        yellowColor: "#fbea80",
+        bgDarkColor: "#1b1e29",
         darkColor: "#283d3e"
       },
     },

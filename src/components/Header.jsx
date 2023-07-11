@@ -35,7 +35,7 @@ const Header = () => {
     const toggleMenu = () => menuRef.current.classList.toggle('show__menu')
 
   return (
-    <header ref={headerRef} className="w-full h-[80px] leading-[80px] flex items-center">
+    <header ref={headerRef} id="landing-header" className="w-full h-[80px] leading-[80px] flex items-center">
         <div className='container'>
             <div className='flex items-center justify-between'>
                 {/*======= LOGO ======= */}
@@ -76,6 +76,9 @@ const Header = () => {
                 </div>
                 {/* ======== menu end =========*/}
             </div>
+            <div id="menu-backdrop" class={`absolute bg-red backdrop-blur-lg rounded left-[var(--left)] top-[var(--top)] w-[var(--width)] h-[var(--height)] transition-all duration-300 ease-in-out opacity-0 -z-10`}>
+
+             </div>
         </div>
     </header>
   );
