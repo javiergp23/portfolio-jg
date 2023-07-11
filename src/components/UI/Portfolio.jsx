@@ -38,19 +38,19 @@ useEffect(() => {
   return (
     <section id="portfolio">
         <div className="container">
-            <div className="flex items-center justify-between flex-wrap">
+            <div className="flex items-center justify-between flex-wrap mb-8">
                 <div className="mb-7 sm:mb-0">
-                    <h3 className='text-headingcolor text-[2rem] font-[700]'>My recent projects</h3>
+                    <h3 className='text-headingColor text-[2rem] font-[700]'>Mis proyectos recientes</h3>
                 </div>   
                 <div className='flex gap-3'>
-                    <button onClick={()=>setSelectTab('all')} className='text-smallTextColor border border-solid  border-smallTextColor py-2 px-4 rounded-[8px]'>
-                        All
+                    <button onClick={()=>setSelectTab('all')} className='text-primaryColor border border-solid font-bold border-smallTextColor hover:bg-smallTextColor hover:text-white hover:font-bold py-2 px-4 rounded-[8px]'>
+                        Todo
                     </button>
-                    <button onClick={()=>setSelectTab('web-design')} className='text-smallTextColor border border-solid  border-smallTextColor py-2 px-4 rounded-[8px]'>
-                        Web Design
+                    <button onClick={()=>setSelectTab('web-design')} className='text-primaryColor border border-solid  font-bold border-smallTextColor  hover:bg-smallTextColor hover:text-white hover:font-bold py-2 px-4 rounded-[8px]'>
+                        Diseño Web
                     </button>
-                    <button onClick={()=>setSelectTab('ux-design')} className='text-smallTextColor border border-solid  border-smallTextColor py-2 px-4 rounded-[8px]'>
-                        Ux-Design
+                    <button onClick={()=>setSelectTab('ux-design')} className='text-primaryColor border border-solid font-bold border-smallTextColor  hover:bg-smallTextColor hover:text-white hover:font-bold py-2 px-4 rounded-[8px]'>
+                        Diseños UX
                     </button>
                 </div>             
             </div>
@@ -62,8 +62,8 @@ useEffect(() => {
                             </figure>
                             <div className='w-full h-full bg-primaryColor  bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block'>
                                 <div className='w-full h-full flex items-center justify-center'>
-                                    <button onClick={() => showModalHandler(portfolio.id)} className='text-white bg-primaryColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>
-                                        See Details
+                                    <button onClick={() => showModalHandler(portfolio.id)} className='text-white bg-primaryColor hover:bg-darkColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>
+                                        Ver Detalles
                                     </button>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@ useEffect(() => {
                 {nextItems < portfolios.length && data.length > 6 && (
                     <button 
                     onClick={loadMoreHandler} 
-                    className='text-white bg-primaryColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>                       
-                    Load More
+                    className='text-white bg-primaryColor hover:bg-darkColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>                       
+                    Cargar más
                 </button>
                 )} 
             </div>
