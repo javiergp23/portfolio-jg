@@ -11,11 +11,11 @@ const portfolios = [
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Tesla Web",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["React", "Tailwind css"],
+    siteUrl: "https://javiergp23.github.io/Landing_page_tesla/",
   },
   {
     id: "02",
