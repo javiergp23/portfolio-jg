@@ -13,8 +13,8 @@ const portfolios = [
     category: "Web Design",
     title: "Tesla Web",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css"],
+      "Creación de web con el FrameWork Astro, replicando la Página original y oficial de la tienda Tesla, la famosa marca de autos electricos, entre otros productos tecnologicos",
+    technologies: ["Astro", "Tailwind css"],
     siteUrl: "https://javiergp23.github.io/Landing_page_tesla/",
   },
   {
