@@ -7,7 +7,7 @@ const Contact = () => {
             <h2 className='text-headingColor font-[700] text-[2.5rem] mb-8'>Entrar en contacto:</h2>
             <div className='md:flex justify-between items-center'>    
                 <div className='w-full md:w-1/2 h-[300px] sm:h-[450px]'>
-                    <iframe title='google-maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113752.76824370881!2d-48.699385850264!3d-27.005697775332827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b65cc2e52aad%3A0x2dc004f5e6adebc4!2sBalneario%20Cambori%C3%BA%2C%20Santa%20Catarina!5e0!3m2!1ses!2sbr!4v1689007768115!5m2!1ses!2sbr" className='border-0 w-full h-full' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    <iframe title='google-maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108962.47685911789!2d-64.58186547968764!3d-31.411993464160425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1718831403134!5m2!1ses!2sar" className='border-0 w-full h-full' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
                 <div className='w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8'>
