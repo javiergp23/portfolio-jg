@@ -20,12 +20,12 @@ const portfolios = [
   {
     id: "02",
     imgUrl: portfolioImg04,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Web",
+    title: "News Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://infowoo.com/",
   },
   {
     id: "03",
