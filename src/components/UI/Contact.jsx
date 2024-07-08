@@ -1,5 +1,5 @@
 import React from 'react'
-
+// Componente para el modal de contacto
 const Contact = () => {
   return (
     <section id='contact' className='pb-16'>
@@ -33,6 +33,7 @@ const Contact = () => {
         </div>
     </section>
   )
+
 }
 
 export default Contact;
