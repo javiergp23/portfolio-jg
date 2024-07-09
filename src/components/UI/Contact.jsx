@@ -1,4 +1,6 @@
 import React from 'react'
+// Componente de contacto
+
 const Contact = () => {
   return (
     <section id='contact' className='pb-16'>
