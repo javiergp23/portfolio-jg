@@ -1,5 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 
+// header component
+
 const Header = () => {
 
     const headerRef = useRef(null)
