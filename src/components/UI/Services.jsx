@@ -4,6 +4,7 @@ import backendImg from '../../assets/images/backend.png';
 import UiImg from '../../assets/images/design.png';
 import appsImg from '../../assets/images/apps.png';
 
+// services component
 const Services = () => {
   return (
     <section id='services'> 
