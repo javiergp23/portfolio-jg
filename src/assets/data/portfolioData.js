@@ -7,7 +7,7 @@ import portfolioImg06 from "../images/portfolio-06.jpg";
 import portfolioImg07 from "../images/portfolio-07.jpg";
 
 //JSON de datos de portfolios
-
+// Pasando datos de portfolios a un archivo json
 const portfolios = [
   {
     id: "01",
