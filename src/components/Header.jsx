@@ -5,6 +5,7 @@ import React, {useRef, useEffect} from 'react';
 const Header = () => {
 
     const headerRef = useRef(null)
+    
     const menuRef = useRef(null)
 
     const stickyHeaderFunc = () => {

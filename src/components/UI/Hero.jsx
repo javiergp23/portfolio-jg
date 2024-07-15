@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroImg from '../../assets/images/hero.svg';
 import CountUp from 'react-countup'
-
+// hero component
 const Hero = () => {
   return (
     <section className='pt-0' id='about'>

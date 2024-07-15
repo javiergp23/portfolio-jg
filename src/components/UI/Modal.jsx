@@ -41,6 +41,7 @@ const Modal = ({ setShowModal, activateID }) => {
       </div>
     </div>
   )
+  
 }
 
 export default Modal; 
