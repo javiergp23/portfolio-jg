@@ -1,7 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 
 // header component
-
+//revisar comentarios luego
 const Header = () => {
 
     const headerRef = useRef(null)
